@@ -1,24 +1,17 @@
 🔐 Licensing API Documentation
 Overview
 This documentation covers:
-
 The API endpoint used to validate licenses.
-
 How to integrate license verification on a client site.
-
 Error handling and sample responses.
 
 🧩 1. API Endpoint (Central Licensing Server)
 Endpoint
 bash
-Copy
-Edit
 POST /api/license/verify
 Full URL (example):
 
-ruby
-Copy
-Edit
+
 https://licensing.example.com/api/license/verify
 Headers
 Header	Value
@@ -27,8 +20,6 @@ Accept	application/json
 
 Request Body
 json
-Copy
-Edit
 {
   "api_key": "your-api-key",
   "license_key": "your-license-key",
